@@ -7,9 +7,8 @@ import com.word.dao.WordDao;
 
 public class WordRegisterServiceAutowired {
 
-	
-//	@Qualifier("usedDao")
 //	@Autowired
+//	@Qualifier("usedDao")
 	@Resource
 	private WordDao wordDao;
 	
